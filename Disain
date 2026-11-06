@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAZZZPISANIE</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключение иконок Google Material Icons -->
+    <link href="https://googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        
+        <!-- Боковая панель (Sidebar) -->
+        <aside class="sidebar">
+            <div class="logo-section">
+                <span class="material-icons-outlined logo-icon">menu_book</span>
+                <h2>RAZZZPISANIE</h2>
+            </div>
+            
+            <nav class="menu">
+                <a href="#" class="menu-item active"><span class="material-icons-outlined">home</span> Головна</a>
+                <a href="#" class="menu-item"><span class="material-icons-outlined">people</span> Вчителі</a>
+                <a href="#" class="menu-item"><span class="material-icons-outlined">calendar_month</span> Розклад</a>
+                <a href="#" class="menu-item"><span class="material-icons-outlined">settings</span> Налаштування</a>
+                <a href="#" class="menu-item"><span class="material-icons-outlined">notifications_active</span> Що нового</a>
+                <a href="#" class="menu-item"><span class="material-icons-outlined">person</span> Профіль</a>
+            </nav>
+        </aside>
+
+        <!-- Основной контент -->
+        <main class="main-content">
+            
+            <!-- Верхняя панель (Header) -->
+            <header class="header">
+                <div class="search-bar">
+                    <span class="material-icons-outlined">search</span>
+                    <input type="text" placeholder="Пошук...">
+                </div>
+                <div class="header-icons">
+                    <span class="material-icons-outlined">notifications</span>
+                    <span class="material-icons-outlined account-icon">account_circle</span>
+                </div>
+            </header>
+
+            <!-- Приветствие -->
+            <section class="welcome-banner">
+                <h1>Привіт, Andrey! ✨</h1>
+                <p>Гарного навчального дня ✨</p>
+            </section>
+
+            <!-- Двухколоночный грид -->
+            <div class="content-grid">
+                
+                <!-- Левая колонка: Дни недели -->
+                <div class="days-column">
+                    <div class="day-card tuesday">
+                        <span class="material-icons-outlined day-icon">door_front</span>
+                        <span class="day-name">Вівторок</span>
+                    </div>
+                    <div class="day-card wednesday">
+                        <span class="material-icons-outlined day-icon">sensor_door</span>
+                        <span class="day-name">Середа</span>
+                    </div>
+                    <div class="day-card thursday">
+                        <span class="material-icons-outlined day-icon">door_back</span>
+                        <span class="day-name">Четвер</span>
+                    </div>
+                    <div class="day-card friday">
+                        <span class="material-icons-outlined day-icon">meeting_room</span>
+                        <span class="day-name">П'ятниця</span>
+                    </div>
+                    <div class="day-card saturday">
+                        <span class="material-icons-outlined day-icon">door_front</span>
+                        <span class="day-name">Субота</span>
+                    </div>
+                </div>
+
+                <!-- Правая колонка: Виджеты -->
+                <div class="widgets-column">
+                    
+                    <!-- Виджет расписания -->
+                    <div class="widget schedule-widget">
